@@ -1,0 +1,32 @@
+{
+  "name": "real-time-example",
+  "version": "1.0.0",
+  "description": "A little socket.io example",
+  "main": "server.js",
+  "scripts": {
+    "start": "open client.html && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baquiax/real-time-example.git"
+  },
+  "keywords": [
+    "socket.io",
+    "example"
+  ],
+  "author": "@baquiax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baquiax/real-time-example/issues"
+  },
+  "homepage": "https://github.com/baquiax/real-time-example#readme",
+  "dependencies": {
+    "hapi": "^17.2.0",
+    "socket.io": "2.0.4"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
